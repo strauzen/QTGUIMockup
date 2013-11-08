@@ -15,8 +15,13 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_playPauseButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QPixmap siouxIcon;
+    bool isPlaying=false;
 };
 
 #endif // MAINWINDOW_H
