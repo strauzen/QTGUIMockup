@@ -21,7 +21,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QPixmap siouxIcon;
-    bool isPlaying=false;
+    bool isPlaying;
 };
 
 #endif // MAINWINDOW_H

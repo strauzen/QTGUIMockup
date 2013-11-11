@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
     siouxIcon.load(":/images/images/SiouxIcon.png");
     setWindowTitle("Sioux Video Wall v2.0");
     setWindowIcon(QIcon(siouxIcon));
+
+    isPlaying=false;
 }
 
 MainWindow::~MainWindow()
